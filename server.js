@@ -1,7 +1,6 @@
 
 // server.js
-import dotenv from "dotenv";
-dotenv.config();
+require("dotenv").config();
 
 const express = require("express");
 const http = require("http");
